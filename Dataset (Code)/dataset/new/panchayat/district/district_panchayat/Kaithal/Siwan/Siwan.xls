@@ -1,0 +1,462 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><meta http-equiv="Content-type" content="text/html;charset=utf-8" /><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>No. of GPs & Equivalent with Profile added</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table class='table table-striped table-bordered table-hover' id='villageTable'>
+									<thead>
+										<tr class='tableHeader'>
+											<th>S.No.</th>
+											<th>Local Body Code</th>
+											<th>Gram Panchayat &amp; Equivalent</th>
+											<th>GP with Profile details</th>
+											<th>Profile Updated in (6 months)</th>
+										</tr>	
+									</thead>
+									<tbody>
+										<!-- ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>1.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30734</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Ajitnagar</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>2.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30735</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Andali</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>No</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>3.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30736</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Atela</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>4.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30737</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Dharampura</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>5.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30738</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Dohar</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>6.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30739</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Fareshmajra</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>7.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30740</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Firozpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>8.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>265009</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Gogh</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>9.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30742</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Gohra</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>10.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30743</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Harnola</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>11.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30744</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Janedpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>12.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>297989</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kacchi Pisol</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>13.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30745</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kakeheri</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>14.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30746</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kakralaanayat</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>15.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30747</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kakrala Kuchiyan</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>16.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30748</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kakyormajra</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>17.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30749</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kangthalli</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>18.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30750</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kasour</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>19.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30751</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kawaratan</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>20.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30754</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kehri Gulamali</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>21.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30752</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Khanpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>22.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30753</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Kharaka</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>23.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30755</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Ladanachaku</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>24.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30757</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Landerpeerzada</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>25.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30756</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Lenderkima</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>26.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30758</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Malikpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>27.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30759</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Mandisadra</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>28.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>246029</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Manjhlan</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>29.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30760</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Meghamajra</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>30.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30761</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Nagal</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>31.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30762</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Pahadpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>32.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30763</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Papsar</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>33.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30764</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Parbhawat</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>34.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30765</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Pishol</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>35.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30767</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Prempura</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>36.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30768</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Ramdasspura</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>37.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30769</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Ramthalli</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>38.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30770</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Rasulpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>39.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30771</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Sair</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>40.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30773</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Sotha</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>41.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30774</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Theh Kharak</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>42.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30775</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Thehtarawali</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>43.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>246028</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Umedpur</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>44.</td>
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityCode'>30776</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.entityName'>Urlana</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-scope'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' data-ng-click='getGPDetails(d.entityCode)' data-toggle='tooltip' title='View Details' class='link ng-binding ng-scope' data-ng-bind='d.updatedGpCount'>Yes</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count == 0 -->
+										</tr><!-- end ngRepeat: d in details -->
+										<!-- ngIf: loader == true -->
+									</tbody>
+									<!-- ngIf: loader == false --><tfoot data-ng-if='loader == false' class='ng-scope'>
+										<tr>
+											<th colspan='5' class='text-center border border-0'>
+												Report generated through eGramSwaraj (http://egramswaraj.gov.in) on Sun, Jun 09, 2024 00:16:44 AM.
+											</th>
+										</tr>
+									</tfoot><!-- end ngIf: loader == false -->
+								</table></body></html>

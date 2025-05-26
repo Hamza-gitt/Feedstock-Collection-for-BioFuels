@@ -1,0 +1,263 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><meta http-equiv="Content-type" content="text/html;charset=utf-8" /><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>No. of GPs & Equivalent with Profile added</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table class='table table-striped table-bordered table-hover' id='blockTable'>
+									<thead>
+										<tr class='tableHeader'>
+											<th>S.No.</th>	
+											<th>Local Body Code</th>
+											<th>Block Panchayat and Equivalent</th>
+											<th>Total No. of GP</th>
+											<th>No. of GPs with Profile details</th>
+											<th>Profile Updated in (6 months)</th>
+											<th>Updated Profile Percentage</th>
+										
+										</tr>	
+									</thead>
+									<tbody>
+										<!-- ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>1.</td>
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													1030
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													Ambala-I
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													103
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													103
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													103
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													100.00
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>2.</td>
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													1031
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													Ambala-Ii
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													16
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													16
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													16
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													100.00
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>3.</td>
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													1032
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													Barara
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													66
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													66
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													65
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													98.48
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>4.</td>
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													1033
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													Naraingarh
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													86
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													86
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													86
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													100.00
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>5.</td>
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													1034
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													Saha
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													60
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													60
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													60
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													100.00
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+										</tr><!-- end ngRepeat: d in details --><tr data-ng-repeat='d in details' class='ng-scope'>
+											<td class='ng-binding'>6.</td>
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count == 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													1035
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													Shahzadpur
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													69
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													69
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													68
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+											<!-- ngIf: d.count != 0 --><td data-ng-if='d.count != 0' class='text-right ng-scope'>
+												<a class='link ng-binding' data-ng-click='onVillage(d.entityCode, d.entityName, 'B')'>
+													98.55
+												</a>
+											</td><!-- end ngIf: d.count != 0 -->
+										</tr><!-- end ngRepeat: d in details -->
+										<!-- ngIf: loader == true -->
+										<!-- ngIf: loader == false --><tr data-ng-if='loader == false' class='ng-scope'>
+											<th colspan='3' class='text-center'>
+												Total
+											</th>
+											<td class='text-right'><b class='ng-binding'>400</b></td>
+											<td class='text-right'><b class='ng-binding'>400</b></td>
+											<td class='text-right'><b class='ng-binding'>398</b></td>
+											<td class='text-right'><b class='ng-binding'>99.50</b></td>
+											
+										</tr><!-- end ngIf: loader == false -->
+									</tbody>
+									<!-- ngIf: loader == false --><tfoot data-ng-if='loader == false' class='ng-scope'>
+										<tr>
+											<th colspan='7' class='text-center border border-0'>
+												Report generated through eGramSwaraj (http://egramswaraj.gov.in) on Sat, Jun 08, 2024 21:46:53 PM.
+											</th>
+										</tr>
+									</tfoot><!-- end ngIf: loader == false -->
+								</table></body></html>

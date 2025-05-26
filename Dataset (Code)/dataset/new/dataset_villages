@@ -1,0 +1,44 @@
+import pandas as pd
+import numpy as np
+
+# List of districts
+districts = ["Karnal", "Kurukshetra", "Ambala", "Jind", "Kaithal", "Yamunanagar", "Panipat", "Sonepat", "Rohtak", "Fatehabad"]
+
+# Function to generate random coordinates
+def generate_coordinates(center_lat, center_long, num_points, radius):
+    latitudes = center_lat + radius * (np.random.rand(num_points) - 0.5) / 10
+    longitudes = center_long + radius * (np.random.rand(num_points) - 0.5) / 10
+    return latitudes, longitudes
+
+# Create a DataFrame
+data = []
+
+for district in districts:
+    # Generate 50 villages per district
+    for village_id in range(1, 51):
+        village_name = f"Village_{district}_{village_id}"
+        latitude, longitude = generate_coordinates(29.0, 77.0, 1, 0.5)
+        cultivable_area = np.random.uniform(500, 1500)  # in hectares
+        rice_area = np.random.uniform(200, cultivable_area / 2)
+        wheat_area = np.random.uniform(200, cultivable_area / 2)
+        avg_yield_rice = np.random.uniform(2.5, 4.5)  # tons per hectare
+        avg_yield_wheat = np.random.uniform(2.5, 4.0)  # tons per hectare
+        harvested_waste_rice = rice_area * np.random.uniform(0.1, 0.3)  # 10-30% of rice area in tons
+        harvested_waste_wheat = wheat_area * np.random.uniform(0.1, 0.3)  # 10-30% of wheat area in tons
+        total_harvested_waste = harvested_waste_rice + harvested_waste_wheat
+        
+        data.append([
+            district, village_name, latitude[0], longitude[0], cultivable_area, rice_area, wheat_area, 
+            avg_yield_rice, avg_yield_wheat, harvested_waste_rice, harvested_waste_wheat, total_harvested_waste
+        ])
+
+columns = [
+    "District", "Village", "Latitude", "Longitude", "Cultivable Area (ha)", "Rice Cultivation Area (ha)", 
+    "Wheat Cultivation Area (ha)", "Avg Yield per ha (Rice)", "Avg Yield per ha (Wheat)", 
+    "Total Harvested Waste (Rice) (tons)", "Total Harvested Waste (Wheat) (tons)", "Total Harvested Waste (tons)"
+]
+
+df = pd.DataFrame(data, columns=columns)
+
+# Save to CSV
+df.to_csv('synthetic_2g_ethanol_production_dataset.csv', index=False)
